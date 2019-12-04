@@ -1,6 +1,11 @@
 doctrine:
     dbal:
-        url: '%env(resolve:DATABASE_URL)%'
+        #url: '%env(resolve:DATABASE_URL)%'
+        user: root
+        password: "MimiXuri64480??"
+        host: localhost
+        port: 3306
+        dbname: wild-series
 
         # IMPORTANT: You MUST configure your db driver and server version,
         # either here or in the DATABASE_URL env var (see .env file)
